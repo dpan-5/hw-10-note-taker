@@ -11,7 +11,8 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 
-// routes
+// have to put API routes before HTML routes, because HTML routes contains * (catch-all)
+require("./routes/apiRoutes")(app);
 require("./routes/htmlRoutes")(app);
 
 app.listen(PORT, function () {
