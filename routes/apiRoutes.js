@@ -29,6 +29,14 @@ module.exports = function(app) {
             });
         });
 
+        // db.push(req.body);
+
+        //     fs.writeFile(path.join(__dirname, "../db/db.json"), JSON.stringify(db), function(err) {
+        //         if(err) throw err;
+
+        //         console.log("successfully wrote to db");
+        //     });
+
         res.json(req.body);
     });
 
@@ -50,7 +58,8 @@ module.exports = function(app) {
             });
         });
 
-        res.json({ ok: "true" });
+        res.sendStatus(200);
+        // can also do: res.json({ ok: "true" });
 
     });
 }
