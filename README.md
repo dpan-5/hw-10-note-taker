@@ -15,6 +15,10 @@
   * [Questions](#questions)
   
   ## Usage 
+
+  This application utilizes html routes to serve pages to the client from the server and api routes to perform various CRUD operations.
+
+  A user is able to write and save notes, view previously saved notes, and delete previously saved notes.
   
   You can view the deployed application [here](https://express-note-taker-dp.herokuapp.com/).
   
