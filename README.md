@@ -24,7 +24,7 @@
   
   ## License
   
-  CLI Team Generator is [MIT licensed](https://opensource.org/licenses/MIT).
+  Note Taker is [MIT licensed](https://opensource.org/licenses/MIT).
 
   ## Questions
 
